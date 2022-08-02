@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +10,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.BeerCard {
+  /* assigns grid */
+  display:grid;
+  padding-right:250px;
+  padding-left: 250px;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  column-gap: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.photo{
+  grid-column-start: 1;
+  grid-row-start:1;
+  grid-row-end:1;
+  height: 250px;
+  display:flex;
+  margin: 
+  
+}
+
+.name {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: flex;
+  justify-content: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  color: rgb(240, 237, 19);
+}
+
+.date {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: flex;
+  justify-content: center; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  color: rgb(240, 237, 19);
+}   
+
+.tag {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: flex;
+  margin-top: -70px;
+  justify-content: center;
+}
+
+.description {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  padding-bottom: 75px;
+}
+
+
